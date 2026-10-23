@@ -1,8 +1,6 @@
 ---
 title: Thronefold support
 description: Help for Thronefold.
-hide:
-  - toc
 ---
 
 # Support

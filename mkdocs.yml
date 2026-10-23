@@ -2,6 +2,9 @@ site_name: Colrae
 site_url: https://colrae-studio.github.io/
 site_description: Colrae makes small games for iPhone and iPad.
 site_author: Colrae
+repo_url: https://github.com/colrae-studio/colrae-studio.github.io
+repo_name: colrae-studio
+edit_uri: edit/main/docs/
 docs_dir: docs
 use_directory_urls: true
 strict: true
@@ -12,34 +15,40 @@ theme:
   name: material
   custom_dir: overrides
   language: en
-  logo: assets/logo.svg
   favicon: assets/favicon.svg
-  font: false
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
+  font:
+    text: Roboto Mono
+    code: Roboto Mono
+  icon:
+    logo: colrae/mark
+    repo: fontawesome/brands/github
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.indexes
+    - search.suggest
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.top
     - navigation.footer
     - navigation.path
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - toc.follow
+    - navigation.indexes
+    - toc.integrate
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme)"
+      scheme: colrae-light
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: colrae-light
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: colrae-dark
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
 
 extra_css:
   - stylesheets/extra.css
@@ -57,6 +66,7 @@ nav:
       - Credits: thronefold/credits.md
 
 plugins:
+  - privacy
   - search
 
 markdown_extensions:
@@ -65,6 +75,7 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - tables
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg

@@ -1,9 +1,6 @@
 ---
 title: Support
 description: Contact Colrae.
-hide:
-  - navigation
-  - toc
 ---
 
 # Support

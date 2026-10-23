@@ -1,8 +1,6 @@
 ---
 title: Thronefold
 description: A daily logic puzzle for iPhone and iPad.
-hide:
-  - toc
 ---
 
 # Thronefold

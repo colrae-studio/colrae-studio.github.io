@@ -1,10 +1,6 @@
 ---
 title: Home
 description: Colrae makes small games for iPhone and iPad.
-hide:
-  - navigation
-  - toc
-  - footer
 ---
 
 # Colrae

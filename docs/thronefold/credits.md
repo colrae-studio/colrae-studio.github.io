@@ -1,8 +1,6 @@
 ---
 title: Credits
 description: Open-source licences and fonts used in Thronefold.
-hide:
-  - toc
 ---
 
 # Credits
