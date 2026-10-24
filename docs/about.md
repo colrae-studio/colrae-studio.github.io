@@ -9,4 +9,4 @@ COLRAE PTY. LTD. is an independent mobile games studio based in Victoria, Austra
 
 ABN 82 666 068 453
 
-[Contact us]({{ contact_url }}).
+[Contact us]({{ contact_url }}){ target=_blank rel=noopener }.

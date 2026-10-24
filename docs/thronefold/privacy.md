@@ -50,7 +50,7 @@ We do not hold your game progress, streaks, stars or settings, so we have none o
 
 ## Your rights
 
-Colrae handles personal information under the Privacy Act 1988 (Cth). Because we do not collect your game data, we usually have nothing to provide or correct. For a question or a complaint, [contact us]({{ contact_url }}) using our contact page. You can also contact the [Office of the Australian Information Commissioner](https://www.oaic.gov.au/).
+Colrae handles personal information under the Privacy Act 1988 (Cth). Because we do not collect your game data, we usually have nothing to provide or correct. For a question or a complaint, [contact us]({{ contact_url }}){ target=_blank rel=noopener } using our contact page. You can also contact the [Office of the Australian Information Commissioner](https://www.oaic.gov.au/).
 
 For information Google holds for ads, use the choices in the app and in Google's privacy policy.
 
@@ -62,4 +62,4 @@ If this policy changes, we will update this page and the effective date.
 
 COLRAE PTY. LTD. (trading as Colrae)  
 Victoria, Australia  
-[Contact us]({{ contact_url }}) using our contact page.
+[Contact us]({{ contact_url }}){ target=_blank rel=noopener } using our contact page.

@@ -19,6 +19,6 @@ Thronefold is free with ads. To change your choices, open Settings in the app an
 
 ## Contact
 
-[Contact us]({{ contact_url }}).
+[Contact us]({{ contact_url }}){ target=_blank rel=noopener }.
 
 More about us: [About](../about.md).
