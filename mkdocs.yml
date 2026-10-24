@@ -24,7 +24,6 @@ theme:
     - navigation.instant.prefetch
     - navigation.instant.progress
     - navigation.top
-    - navigation.footer
     - navigation.path
     - navigation.indexes
     - toc.integrate
