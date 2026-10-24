@@ -4,6 +4,8 @@ Public site for Colrae: <https://colrae-studio.github.io/>
 
 The site is built with MkDocs. Paths under `/thronefold/` are used in the App Store listing and in the app, so leave them as they are.
 
+`docs/stylesheets/extra.css` is original work for Colrae.
+
 ## Preview
 
 ```bash
