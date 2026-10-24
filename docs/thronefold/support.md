@@ -19,6 +19,6 @@ Thronefold is free with ads. To change your choices, open Settings in the app an
 
 ## Contact
 
-[thronefold+colrae.studio@gmail.com](mailto:thronefold+colrae.studio@gmail.com)
+[Contact us]({{ contact_url }}).
 
 COLRAE PTY. LTD., Victoria, Australia.

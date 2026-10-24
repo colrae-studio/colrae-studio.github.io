@@ -5,7 +5,7 @@ description: Contact Colrae.
 
 # Support
 
-Questions about Colrae or our games: [thronefold+colrae.studio@gmail.com](mailto:thronefold+colrae.studio@gmail.com)
+Questions about Colrae or our games? [Contact us]({{ contact_url }}).
 
 COLRAE PTY. LTD.  
 ABN 82 666 068 453  
