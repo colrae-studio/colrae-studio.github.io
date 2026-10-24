@@ -9,9 +9,7 @@ Effective 24 October 2026. This policy covers the Thronefold app for iPhone and 
 
 ## Who we are
 
-Thronefold is operated by COLRAE PTY. LTD. (trading as Colrae), ABN 82 666 068 453, Victoria, Australia.
-
-[Contact us]({{ contact_url }}) using our contact page.
+Thronefold is published by COLRAE PTY. LTD. ("Colrae", "we"). More about us: [About](../about.md).
 
 ## Accounts and progress
 

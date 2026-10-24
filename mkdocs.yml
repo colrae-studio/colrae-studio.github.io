@@ -51,6 +51,7 @@ hooks:
 
 nav:
   - Home: index.md
+  - About: about.md
   - Support: support.md
   - Thronefold:
       - thronefold/index.md
