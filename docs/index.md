@@ -5,7 +5,7 @@ description: Colrae makes small games for iPhone and iPad.
 
 # Colrae
 
-Colrae makes small games for iPhone and iPad. We're a small studio in Victoria, Australia.
+Colrae produces software and video games. We're a small studio in Victoria, Australia.
 {.home-lead}
 
 ## Apps

@@ -9,6 +9,8 @@ The site is built with MkDocs. Paths under `/thronefold/` are used in the App St
 ## Preview
 
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 mkdocs serve
 ```
