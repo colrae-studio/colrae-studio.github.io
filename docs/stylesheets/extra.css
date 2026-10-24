@@ -1,25 +1,46 @@
-/* Colrae palette. Written for this site. */
+/* Colrae layout. Palette values are the iTerm2 Lovelace scheme. */
 
 :root {
-  --colrae-teal: #0e7480;
-  --colrae-teal-deep: #0a5560;
-  --colrae-amber: #e0a04a;
-  --colrae-amber-deep: #9a5c16;
-  --colrae-ink: #241c16;
-  --colrae-paper: #f6f1ea;
-  --colrae-night: #171412;
-  --colrae-night-raise: #2c261f;
-  --colrae-cream: #fff8f1;
+  --lovelace-bg: #1d1f28;
+  --lovelace-fg: #fdfdfd;
+  --lovelace-black: #282a36;
+  --lovelace-bright-black: #414458;
+  --lovelace-pink: #f37f97;
+  --lovelace-cyan: #79e6f3;
+  --lovelace-magenta: #c574dd;
+  --lovelace-bright-magenta: #b043d1;
+  --lovelace-orange: #f2a272;
+  --lovelace-muted: #bebec1;
+  --lovelace-bold: #ffffff;
+  --lovelace-selection: #c1deff;
+  --lovelace-orange-ink: #9d694a;
+  --lovelace-cyan-ink: #417c83;
 }
 
 .md-header {
-  background-color: var(--colrae-teal-deep);
-  background-image: linear-gradient(105deg, var(--colrae-teal-deep) 0%, var(--colrae-amber-deep) 100%);
+  background-color: var(--lovelace-pink);
+  background-image: linear-gradient(105deg, var(--lovelace-pink) 0%, var(--lovelace-cyan) 100%);
+  color: var(--lovelace-bg);
+}
+
+@media screen and (min-width: 60em) {
+  .md-search__form {
+    background-color: var(--lovelace-fg);
+  }
+
+  .md-search__form:hover {
+    background-color: var(--lovelace-bold);
+  }
+}
+
+.md-typeset {
+  color: var(--md-default-fg-color);
 }
 
 .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3 {
+  color: var(--md-default-fg-color);
   font-family: "Avenir Next", "Segoe UI", sans-serif;
   letter-spacing: -0.03em;
 }
@@ -39,54 +60,65 @@
   transition: color 160ms ease;
 }
 
+.md-sidebar .md-nav__link {
+  color: var(--md-default-fg-color--light);
+}
+
+.md-sidebar .md-nav__link--active,
+.md-sidebar .md-nav__item--active > .md-nav__link {
+  color: var(--md-typeset-a-color);
+}
+
 [data-md-color-scheme="colrae-dark"] {
-  --md-default-bg-color: var(--colrae-night);
-  --md-default-fg-color: #f4ece3;
-  --md-default-fg-color--light: #d9cbb8;
-  --md-default-fg-color--lighter: #a89886;
-  --md-default-fg-color--lightest: rgba(244, 236, 227, 0.16);
-  --md-primary-fg-color: var(--colrae-teal-deep);
-  --md-primary-bg-color: var(--colrae-cream);
-  --md-accent-fg-color: var(--colrae-amber);
-  --md-typeset-a-color: #f0b15c;
-  --md-code-bg-color: #2a241e;
-  --md-code-fg-color: #f4ece3;
-  --md-footer-bg-color: #100e0c;
-  --md-footer-fg-color: #f6efe6;
-  --md-footer-fg-color--light: rgba(246, 239, 230, 0.72);
-  --md-footer-fg-color--lighter: rgba(246, 239, 230, 0.45);
+  --md-default-bg-color: var(--lovelace-bg);
+  --md-default-fg-color: var(--lovelace-fg);
+  --md-default-fg-color--light: var(--lovelace-muted);
+  --md-default-fg-color--lighter: var(--lovelace-muted);
+  --md-default-fg-color--lightest: rgba(253, 253, 253, 0.14);
+  --md-primary-fg-color: var(--lovelace-pink);
+  --md-primary-bg-color: var(--lovelace-bg);
+  --md-primary-bg-color--light: rgba(29, 31, 40, 0.72);
+  --md-accent-fg-color: var(--lovelace-magenta);
+  --md-typeset-a-color: var(--lovelace-cyan);
+  --md-code-bg-color: var(--lovelace-black);
+  --md-code-fg-color: var(--lovelace-fg);
+  --md-footer-bg-color: var(--lovelace-bright-black);
+  --md-footer-fg-color: var(--lovelace-fg);
+  --md-footer-fg-color--light: var(--lovelace-muted);
+  --md-footer-fg-color--lighter: rgba(190, 190, 193, 0.7);
 }
 
 [data-md-color-scheme="colrae-light"] {
-  --md-default-bg-color: var(--colrae-paper);
-  --md-default-fg-color: var(--colrae-ink);
-  --md-default-fg-color--light: #5e5348;
-  --md-default-fg-color--lighter: #8d8074;
-  --md-default-fg-color--lightest: rgba(36, 28, 22, 0.1);
-  --md-primary-fg-color: var(--colrae-teal);
-  --md-primary-bg-color: var(--colrae-cream);
-  --md-accent-fg-color: var(--colrae-amber-deep);
-  --md-typeset-a-color: #0c7380;
-  --md-code-bg-color: #efe4d4;
-  --md-code-fg-color: var(--colrae-ink);
-  --md-footer-bg-color: #2a2118;
-  --md-footer-fg-color: #f6efe6;
-  --md-footer-fg-color--light: rgba(246, 239, 230, 0.75);
-  --md-footer-fg-color--lighter: rgba(246, 239, 230, 0.48);
+  --md-default-bg-color: var(--lovelace-fg);
+  --md-default-fg-color: var(--lovelace-bg);
+  --md-default-fg-color--light: var(--lovelace-black);
+  --md-default-fg-color--lighter: var(--lovelace-bright-black);
+  --md-default-fg-color--lightest: rgba(29, 31, 40, 0.12);
+  --md-primary-fg-color: var(--lovelace-pink);
+  --md-primary-bg-color: var(--lovelace-bg);
+  --md-primary-bg-color--light: rgba(29, 31, 40, 0.72);
+  --md-accent-fg-color: var(--lovelace-bright-magenta);
+  --md-typeset-a-color: var(--lovelace-cyan-ink);
+  --md-code-bg-color: var(--lovelace-selection);
+  --md-code-fg-color: var(--lovelace-bg);
+  --md-footer-bg-color: var(--lovelace-bright-black);
+  --md-footer-fg-color: var(--lovelace-fg);
+  --md-footer-fg-color--light: var(--lovelace-muted);
+  --md-footer-fg-color--lighter: rgba(190, 190, 193, 0.7);
 }
 
 .md-typeset .grid.cards > ul > li {
   position: relative;
   border: 0;
   border-radius: 14px;
-  border-left: 4px solid var(--colrae-amber);
-  background: var(--colrae-night-raise);
-  box-shadow: 0 12px 28px rgba(8, 6, 4, 0.28);
+  border-left: 4px solid var(--lovelace-pink);
+  background: var(--lovelace-black);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.32);
 }
 
 [data-md-color-scheme="colrae-light"] .md-typeset .grid.cards > ul > li {
-  background: #fffdf9;
-  box-shadow: 0 10px 24px rgba(48, 32, 16, 0.08);
+  background: var(--lovelace-bold);
+  box-shadow: 0 10px 24px rgba(29, 31, 40, 0.08);
 }
 
 .md-typeset .grid.cards > ul > li > p:first-child a {
@@ -104,8 +136,8 @@
   display: inline-block;
   margin-top: 0.35rem;
   padding-bottom: 0.05rem;
-  border-bottom: 2px solid var(--colrae-amber);
-  color: var(--colrae-amber);
+  border-bottom: 2px solid var(--lovelace-orange);
+  color: var(--lovelace-orange);
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -113,9 +145,11 @@
 }
 
 [data-md-color-scheme="colrae-light"] .status {
-  color: var(--colrae-amber-deep);
+  border-bottom-color: var(--lovelace-orange-ink);
+  color: var(--lovelace-orange-ink);
 }
 
+.md-copyright__highlight,
 .md-copyright a {
-  color: inherit;
+  color: var(--md-footer-fg-color);
 }

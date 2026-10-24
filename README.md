@@ -20,7 +20,7 @@ Open <http://127.0.0.1:8000/>.
 ## Add an app
 
 1. Copy `docs/thronefold/` to `docs/<app>/`.
-2. Rewrite the pages in that folder. Link to `/about/` for the studio. Don't copy the company description or ABN into the app folder.
+2. Rewrite the pages in that folder. Link to `/about/` for the studio. Don't copy the company description into the app folder.
 3. Add a section for the app under `nav` in `mkdocs.yml`.
 4. Add a card on `docs/index.md` that links to the new app's `index.md`.
 5. Run `mkdocs build --strict`.
