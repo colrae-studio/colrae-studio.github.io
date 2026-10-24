@@ -1,0 +1,174 @@
+/* Colrae layout. Palette values are the iTerm2 Lovelace scheme. */
+
+:root {
+  --lovelace-bg: #1d1f28;
+  --lovelace-fg: #fdfdfd;
+  --lovelace-black: #282a36;
+  --lovelace-bright-black: #414458;
+  --lovelace-pink: #f37f97;
+  --lovelace-cyan: #79e6f3;
+  --lovelace-magenta: #c574dd;
+  --lovelace-bright-magenta: #b043d1;
+  --lovelace-orange: #f2a272;
+  --lovelace-muted: #bebec1;
+  --lovelace-bold: #ffffff;
+  --lovelace-selection: #c1deff;
+  --lovelace-orange-ink: #9d694a;
+  --lovelace-cyan-ink: #417c83;
+}
+
+.md-header {
+  background-color: var(--lovelace-pink);
+  background-image: linear-gradient(105deg, var(--lovelace-pink) 0%, var(--lovelace-cyan) 100%);
+  color: var(--lovelace-bg);
+}
+
+a.md-header__title,
+a.md-header__title:hover,
+a.md-header__title:visited {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  outline-color: var(--md-accent-fg-color);
+  transition: opacity 0.25s;
+}
+
+a.md-header__title:hover {
+  opacity: 0.7;
+}
+
+@media screen and (min-width: 60em) {
+  .md-search__form {
+    background-color: var(--lovelace-fg);
+  }
+
+  .md-search__form:hover {
+    background-color: var(--lovelace-bold);
+  }
+}
+
+.md-typeset {
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  color: var(--md-default-fg-color);
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  letter-spacing: -0.03em;
+}
+
+.md-typeset h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin: 0 0 0.45rem;
+}
+
+.md-typeset .home-lead {
+  font-size: 1.15em;
+  line-height: 1.6;
+}
+
+.md-typeset h2 {
+  font-size: 1.45rem;
+  font-weight: 600;
+}
+
+.md-typeset a {
+  transition: color 160ms ease;
+}
+
+.md-sidebar .md-nav__link {
+  color: var(--md-default-fg-color--light);
+}
+
+.md-sidebar .md-nav__link--active,
+.md-sidebar .md-nav__item--active > .md-nav__link {
+  color: var(--md-typeset-a-color);
+}
+
+[data-md-color-scheme="colrae-dark"] {
+  --md-default-bg-color: var(--lovelace-bg);
+  --md-default-fg-color: var(--lovelace-fg);
+  --md-default-fg-color--light: var(--lovelace-muted);
+  --md-default-fg-color--lighter: var(--lovelace-muted);
+  --md-default-fg-color--lightest: rgba(253, 253, 253, 0.14);
+  --md-primary-fg-color: var(--lovelace-pink);
+  --md-primary-bg-color: var(--lovelace-bg);
+  --md-primary-bg-color--light: rgba(29, 31, 40, 0.72);
+  --md-accent-fg-color: var(--lovelace-magenta);
+  --md-typeset-a-color: var(--lovelace-cyan);
+  --md-code-bg-color: var(--lovelace-black);
+  --md-code-fg-color: var(--lovelace-fg);
+  --md-footer-bg-color: var(--lovelace-bright-black);
+  --md-footer-fg-color: var(--lovelace-fg);
+  --md-footer-fg-color--light: var(--lovelace-muted);
+  --md-footer-fg-color--lighter: rgba(190, 190, 193, 0.7);
+}
+
+[data-md-color-scheme="colrae-light"] {
+  --md-default-bg-color: var(--lovelace-fg);
+  --md-default-fg-color: var(--lovelace-bg);
+  --md-default-fg-color--light: var(--lovelace-black);
+  --md-default-fg-color--lighter: var(--lovelace-bright-black);
+  --md-default-fg-color--lightest: rgba(29, 31, 40, 0.12);
+  --md-primary-fg-color: var(--lovelace-pink);
+  --md-primary-bg-color: var(--lovelace-bg);
+  --md-primary-bg-color--light: rgba(29, 31, 40, 0.72);
+  --md-accent-fg-color: var(--lovelace-bright-magenta);
+  --md-typeset-a-color: var(--lovelace-cyan-ink);
+  --md-code-bg-color: var(--lovelace-selection);
+  --md-code-fg-color: var(--lovelace-bg);
+  --md-footer-bg-color: var(--lovelace-bright-black);
+  --md-footer-fg-color: var(--lovelace-fg);
+  --md-footer-fg-color--light: var(--lovelace-muted);
+  --md-footer-fg-color--lighter: rgba(190, 190, 193, 0.7);
+}
+
+.md-typeset .grid.cards > ul > li {
+  position: relative;
+  border: 0;
+  border-radius: 14px;
+  border-left: 4px solid var(--lovelace-pink);
+  background: var(--lovelace-black);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.32);
+}
+
+[data-md-color-scheme="colrae-light"] .md-typeset .grid.cards > ul > li {
+  background: var(--lovelace-bold);
+  box-shadow: 0 10px 24px rgba(29, 31, 40, 0.08);
+}
+
+.md-typeset .grid.cards > ul > li > p:first-child a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.md-typeset .grid.cards > ul > li > p:first-child a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.status {
+  display: inline-block;
+  margin-top: 0.35rem;
+  padding-bottom: 0.05rem;
+  border-bottom: 2px solid var(--lovelace-orange);
+  color: var(--lovelace-orange);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+[data-md-color-scheme="colrae-light"] .status {
+  border-bottom-color: var(--lovelace-orange-ink);
+  color: var(--lovelace-orange-ink);
+}
+
+.md-copyright__highlight,
+.md-copyright a {
+  color: var(--md-footer-fg-color);
+}
