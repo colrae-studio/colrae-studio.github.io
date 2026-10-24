@@ -41,7 +41,8 @@ extra_css:
 
 extra:
   generator: false
-  contact_url: https://docs.google.com/forms/d/e/1FAIpQLSf8AZvMNqCBW9ZPnAS4ouOjWDzg_SnRk5_XRJVObHSBjagQiA/viewform
+  # Single place to change the contact form link.
+  contact_url: https://forms.gle/LAGTykLubDUdCWgh6
 
 hooks:
   - hooks/contact.py

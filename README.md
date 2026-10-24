@@ -6,6 +6,8 @@ The site is built with MkDocs. Paths under `/thronefold/` are used in the App St
 
 `docs/stylesheets/extra.css` is original work for Colrae.
 
+`extra.contact_url` in `mkdocs.yml` is the single place to change the contact form link.
+
 ## Preview
 
 ```bash
