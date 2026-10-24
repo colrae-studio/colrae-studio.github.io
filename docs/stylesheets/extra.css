@@ -65,6 +65,11 @@ a.md-header__title:hover {
   margin: 0 0 0.45rem;
 }
 
+.md-typeset .home-lead {
+  font-size: 1.15em;
+  line-height: 1.6;
+}
+
 .md-typeset h2 {
   font-size: 1.45rem;
   font-weight: 600;

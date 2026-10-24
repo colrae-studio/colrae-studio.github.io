@@ -1,6 +1,6 @@
 ---
 title: Home
-description: Colrae makes small games for iPhone and iPad.
+description: Colrae produces software and video games. A small studio in Victoria, Australia.
 ---
 
 # Colrae

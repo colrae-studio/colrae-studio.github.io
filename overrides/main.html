@@ -1,0 +1,4 @@
+{% extends "base.html" %}
+{% block site_meta %}
+  {{ super() | replace('<meta name="generator" content="mkdocs-' ~ mkdocs_version ~ ', mkdocs-material-9.7.7">', '') }}
+{% endblock %}

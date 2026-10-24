@@ -1,12 +1,10 @@
 site_name: Colrae
 site_url: https://colrae-studio.github.io/
-site_description: Colrae makes small games for iPhone and iPad.
+site_description: Colrae produces software and video games. A small studio in Victoria, Australia.
 site_author: Colrae
 docs_dir: docs
 use_directory_urls: true
 strict: true
-not_in_nav: |
-  404.md
 
 theme:
   name: material
