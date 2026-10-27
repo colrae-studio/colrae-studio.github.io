@@ -15,7 +15,12 @@ Progress is stored on this device only. Deleting Thronefold deletes it. There is
 
 ## Ad choices
 
-Thronefold is free with ads. Open Settings in the app and choose Privacy options. That entry is shown where required. You can also change tracking permission for Thronefold in the iOS Settings app.
+Thronefold is free with ads. Open Settings in the app and choose Privacy choices. That entry is shown where required.
+
+You can also limit ads in your device settings:
+
+- On iPhone and iPad, turn tracking off for Thronefold in Settings → Privacy & Security → Tracking.
+- On Android, delete or reset your advertising ID in your device's Ads settings.
 
 ## Contact
 
