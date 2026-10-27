@@ -11,9 +11,7 @@ Effective 27 October 2026. This policy covers the Thronefold app for iPhone, iPa
 
 Thronefold is made by COLRAE PTY. LTD. (ACN 666 068 453), an Australian company, under the Colrae brand ("Colrae", "we"). More about us: [About](../about.md).
 
-- On the App Store, the seller is currently Christy Wijaya, the sole director of COLRAE PTY. LTD. The app is published from Christy Wijaya's individual Apple developer account, with the company's authorisation. We have asked Apple to convert that account to an organization account for the company. Once that is done, the App Store will show COLRAE PTY. LTD. as the seller.
-- On Google Play, the publisher is COLRAE PTY. LTD.
-- On both stores, ads come from a Google AdMob account owned by COLRAE PTY. LTD. That company is responsible for the ad data described below. Christy Wijaya does not hold a separate AdMob account for Thronefold.
+Ads in the app come from a Google AdMob account owned by COLRAE PTY. LTD. That company is responsible for the ad data described below.
 
 ## Accounts and progress
 
