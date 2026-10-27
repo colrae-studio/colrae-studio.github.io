@@ -5,11 +5,15 @@ description: How Thronefold handles information.
 
 # Privacy policy
 
-Effective 24 October 2026. This policy covers the Thronefold app for iPhone and iPad.
+Effective 27 October 2026. This policy covers the Thronefold app for iPhone, iPad and Android.
 
 ## Who we are
 
-Thronefold is published by COLRAE PTY. LTD. ("Colrae", "we"). More about us: [About](../about.md).
+Thronefold is made under the Colrae brand ("Colrae", "we"). More about us: [About](../about.md).
+
+- On Google Play, the publisher is COLRAE PTY. LTD. (ACN 666 068 453), an Australian company.
+- On the App Store, the seller is Christy Wijaya. That is the legal name on the individual Apple developer account that publishes the app.
+- On both stores, ads come from a Google AdMob account owned by COLRAE PTY. LTD. That company is responsible for the ad data described below. Christy Wijaya does not hold a separate AdMob account for Thronefold.
 
 ## Accounts and progress
 
@@ -23,7 +27,10 @@ The app is free with ads. Ads are served by Google AdMob, using the google_mobil
 
 Google may collect:
 
-- device identifiers, including the iOS advertising identifier (IDFA), only if you allow tracking when Apple asks through App Tracking Transparency
+- device identifiers:
+    - on iPhone and iPad, the advertising identifier (IDFA), only if you allow tracking when Apple asks through App Tracking Transparency
+    - on Android, the Android advertising ID, unless you have deleted it in your device settings
+    - on both, an app set ID and other identifiers that Google limits to its own apps or to one developer
 - your IP address and approximate location
 - how you interact with ads
 - diagnostics
@@ -35,6 +42,11 @@ See [How Google uses information from sites or apps that use our services](https
 ## Consent
 
 Consent is handled with Google's User Messaging Platform. If you are in the European Economic Area, the United Kingdom or Switzerland, or in an applicable US state, Thronefold asks for consent or offers opt-out choices. You can change those choices later. [Thronefold support](support.md) says where.
+
+You can also limit ads in your device settings:
+
+- On iPhone and iPad, turn tracking off for Thronefold in Settings → Privacy & Security → Tracking.
+- On Android, delete or reset your advertising ID in your device's Ads settings.
 
 ## Sales and purchases
 
