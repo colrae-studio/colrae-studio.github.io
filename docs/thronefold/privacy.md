@@ -9,9 +9,9 @@ Effective 27 October 2026. This policy covers the Thronefold app for iPhone, iPa
 
 ## Who we are
 
-Thronefold is made by COLRAE PTY. LTD. (ACN 666 068 453), an Australian company, under the Colrae brand ("Colrae", "we"). More about us: [About](../about.md).
+Thronefold is made by Colrae Pty. Ltd., an Australian company, under the Colrae brand ("Colrae", "we"). More about us: [About](../about.md).
 
-Ads in the app come from a Google AdMob account owned by COLRAE PTY. LTD. That company is responsible for the ad data described below.
+Ads in the app come from a Google AdMob account owned by Colrae Pty. Ltd. That company is responsible for the ad data described below.
 
 ## Accounts and progress
 
@@ -70,6 +70,6 @@ If this policy changes, we will update this page and the effective date.
 
 ## Contact
 
-COLRAE PTY. LTD. (trading as Colrae)  
+Colrae Pty. Ltd.  
 Victoria, Australia  
 [Contact us]({{ contact_url }}){ target=_blank rel=noopener } using our contact form.
