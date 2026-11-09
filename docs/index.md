@@ -18,6 +18,6 @@ Colrae produces software and video games. We're a small studio in Victoria, Aust
 
     A daily logic puzzle for iPhone, iPad and Android. One grid a day, the same worldwide, then an endless path of levels with stars.
 
-    <span class="status">Coming soon to the App Store and Google Play</span>
+    <span class="status">[App Store](https://apps.apple.com/au/app/thronefold/id6827352580){ target=_blank rel=noopener } · [Google Play](https://play.google.com/store/apps/details?id=app.thronefold.game){ target=_blank rel=noopener }</span>
 
 </div>
